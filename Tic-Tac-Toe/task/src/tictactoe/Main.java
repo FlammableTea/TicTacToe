@@ -18,7 +18,7 @@ class Board{
         return finished;
     }
 
-    boolean importIsValid(String input){
+/*    boolean importIsValid(String input){
         char[] validChars = {'O', 'X', '_'};
         for(int i = 0; i < input.length(); i++){
             char c = input.charAt(i);
@@ -30,8 +30,9 @@ class Board{
         //loop through string, if any of the characters are invalid
         return true;
     }
-
-    //imports a board state
+/////////////////////////////////////////////
+    imports a board state
+//////////////////////////////////////////////
     void importBoard(String input){
         if(importIsValid(input)){
             for(int i = 0; i<input.length(); i++){
@@ -42,7 +43,7 @@ class Board{
         else{
             System.out.println("Invalid input: try again");
         }
-    }
+    }*/
 
     void printBoard(){
         char[] ch = cells;
