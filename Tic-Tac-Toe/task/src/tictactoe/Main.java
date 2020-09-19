@@ -106,7 +106,10 @@ class Board{
                     finished = true;
                     game_state = "X wins";
                 }
-                else game_state = "O wins";
+                else {
+                    finished = true;
+                    game_state = "O wins";
+                }
             }
 
             else if (spaces_remaining){
